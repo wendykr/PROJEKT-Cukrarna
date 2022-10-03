@@ -91,10 +91,9 @@ section, main {
 	background-position: center;
 	background-size: cover;
 	color: white;
-	padding: 80px 15%;
 }
 
-.obal-herosekce  {
+.obal-herosekce {
 	max-width: 1100px;
 	padding-right: 40%;
 	margin: 0 auto;
