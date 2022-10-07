@@ -45,6 +45,23 @@ h1, h2, h3 {
 	line-height: 1.25;
 }
 
+section {
+	padding: 80px 0;
+}
+
+.section-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.foto-cukrarka, .foto-peceni {
+	display: block;
+}
+
+/* .ramecek {
+	border: 1px dotted red;
+} */
+
 /* ----- HEADER začátek ----- */
 
 .hlavicka {
@@ -52,8 +69,6 @@ h1, h2, h3 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1100px;
-	margin: 0 auto;
 }
 
 .odkazy ul {
@@ -80,10 +95,6 @@ h1, h2, h3 {
 
 /* ----- HEADER konec ----- */
 
-section, main {
-	padding: 80px 0;
-}
-
 /* ----- HERO začátek ----- */
 
 .hero {
@@ -95,11 +106,8 @@ section, main {
 	color: white;
 }
 
-.obal-hero {
-	max-width: 1100px;
+.obsah-hero {
 	padding-right: 40%;
-	margin: 0 auto;
-	/* border: 1px dotted red; */
 }
 
 .hero h1 {
@@ -111,6 +119,7 @@ section, main {
 .hero p {
 	font-size: 24px;
 	font-style: italic;
+	margin-bottom: 0;
 }
 
 /* ----- HERO konec ----- */
@@ -122,9 +131,6 @@ section, main {
 	gap: 30px;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1100px;
-	margin: 0 auto;
-	/* border: 1px dotted red; */
 }
 
 .vitejte-levy, .vitejte-pravy {
@@ -165,12 +171,6 @@ section, main {
 	background-color: #f0f0f0;
 }
 
-.obal-nabidka  {
-	max-width: 1100px;
-	margin: 0 auto;
-	/* border: 1px dotted red; */
-}
-
 .nabidka h2 {
 	margin-top: 0;
 	font-size: 36px;
@@ -182,7 +182,6 @@ section, main {
 	gap: 30px;
 	justify-content: space-between;
 	align-items: center;
-	/* border: 1px dotted red; */
 }
 
 .produkt {
@@ -225,9 +224,7 @@ section, main {
 	background-color: #303339;
 }
 
-.obal-paticka {
-	max-width: 1100px;
-	margin: 0 auto;
+.obsah-paticka {
 	color: white;
 	text-align: center;
 }
